@@ -1,7 +1,7 @@
 import { auth } from "./config.js";
 import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-auth.js";
 
-const usernameElm = document.getElementById("username");
+const usernameElm = document.getElementById("email");
 const passwordElm = document.getElementById("password");
 const registerBtn = document.getElementById("register-btn");
 
@@ -20,3 +20,4 @@ const handleRegister = () => {
         });
 };
 registerBtn.addEventListener("click", handleRegister);
+
