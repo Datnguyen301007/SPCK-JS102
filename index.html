@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>KOFFEE - Coffee Shop HTML Template</title>
+    <title>SIMPLE - Coffee Shop</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free Website Template" name="keywords">
     <meta content="Free Website Template" name="description">
@@ -27,6 +27,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -34,7 +35,7 @@
     <div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-4 text-uppercase text-white">KOFFEE</h1>
+                <h1 class="m-0 display-4 text-uppercase text-white">SIMPLE</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -54,6 +55,8 @@
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                     <a href="login.html" class="nav-item nav-link display-username">Login</a>
+                    <button class="nav-item nav-link nav_logout-btn"><i class="fas fa-sign-out-alt"></i></button>
+                    <a href="cart.html" class="nav-item nav-link"><i class="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
         </nav>
@@ -69,7 +72,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <h2 class="text-primary font-weight-medium m-0">We Have Been Serving</h2>
                         <h1 class="display-1 text-white m-0">COFFEE</h1>
-                        <h2 class="text-white m-0">* SINCE 1950 *</h2>
+                        <h2 class="text-white m-0">* SINCE 2023 *</h2>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -77,7 +80,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <h2 class="text-primary font-weight-medium m-0">We Have Been Serving</h2>
                         <h1 class="display-1 text-white m-0">COFFEE</h1>
-                        <h2 class="text-white m-0">* SINCE 1950 *</h2>
+                        <h2 class="text-white m-0">* SINCE 2023 *</h2>
                     </div>
                 </div>
             </div>
@@ -97,17 +100,16 @@
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
-                <h1 class="display-4">Serving Since 1950</h1>
+                <h1 class="display-4">Serving Since 2023</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Story</h1>
-                    <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea
-                    </h5>
-                    <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam
-                        lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo
-                        sit ut. Labor diam sed ipsum et eirmod</p>
-                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                    <h1 class="mb-3">Nguồn gốc</h1>
+                    <p>Simple Coffee® được thành lập vào năm 2023, bắt nguồn từ tình yêu dành cho đất Việt cùng với cà phê và cộng đồng nơi
+                    đây. Tinh thần cộng đồng luôn chảy trong ADN của mỗi người Việt mình. Ngay từ những ngày đầu tiên, mục tiêu của chúng
+                    mình là có thể phục vụ và góp phần phát triển cộng đồng bằng cách siết chặt thêm sự kết nối và sự gắn bó giữa người với
+                    người.</p>
+                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Xem Thêm</a>
                 </div>
                 <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -115,193 +117,18 @@
                     </div>
                 </div>
                 <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Vision</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                    <h1 class="mb-3">Hướng tới</h1>
+                    <p>Trong tương lai, chúng mình sẽ luôn thấy một Việt Nam đang phát triển và một Simple Coffee® không ngừng cải tiến.
+                    Simple Coffee® - điểm tụ họp của cộng đồng, nơi mọi người có thể kết nối và gắn kết với nhau bằng tình yêu dành cho
+                    cà phê, trà và các món ăn ngon. Tại Simple Coffee®, chúng mình luôn sát cánh cùng bạn, chúng mình luôn ủng hộ bạn và
+                    chúng mình luôn đồng hành với nhau như một cộng đồng.</p>
+                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Xem Thêm</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
 
-
-    <!-- Service Start -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Services</h4>
-                <h1 class="display-4">Fresh & Organic Beans</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-1.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-truck service-icon"></i>Fastest Door Delivery</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor
-                                sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-2.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-coffee service-icon"></i>Fresh Coffee Beans</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor
-                                sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-award service-icon"></i>Best Quality Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor
-                                sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-4.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-table service-icon"></i>Online Table Booking</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor
-                                sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
-
-    <!-- Offer Start -->
-    <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
-        <div class="container py-5">
-            <h1 class="display-3 text-primary mt-3">50% OFF</h1>
-            <h1 class="text-white mb-3">Sunday Special Offer</h1>
-            <h4 class="text-white font-weight-normal mb-4 pb-3">Only for Sunday from 1st Oct to 30th Oct 2023</h4>
-            <form class="form-inline justify-content-center mb-4">
-                <div class="input-group">
-                    <input type="text" class="form-control p-4" placeholder="Your Email" style="height: 60px;">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary font-weight-bold px-4" type="submit">Sign Up</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    <!-- Offer End -->
-
-
-    <!-- Menu Start -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
-                <h1 class="display-4">Competitive Pricing</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Hot Coffee</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Cold Coffee</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Menu End -->
-
-
-    <!-- Reservation Start -->
     <div class="container-fluid my-5">
         <div class="container">
             <div class="reservation position-relative overlay-top overlay-bottom">
@@ -310,18 +137,14 @@
                         <div class="p-5">
                             <div class="mb-4">
                                 <h1 class="display-3 text-primary">30% OFF</h1>
-                                <h1 class="text-white">For Online Reservation</h1>
+                                <h1 class="text-white">Khi Đặt Online</h1>
                             </div>
-                            <p class="text-white">Lorem justo clita erat lorem labore ea, justo dolor lorem ipsum ut sed
-                                eos,
-                                ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea
-                            </p>
                             <ul class="list-inline text-white m-0">
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet
+                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Uy Tín
                                 </li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet
+                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Chất Lượng
                                 </li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet
+                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Không Gian Yên Tĩnh
                                 </li>
                             </ul>
                         </div>
@@ -353,8 +176,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select bg-transparent border-primary px-4"
-                                        style="height: 49px;">
+                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;">
                                         <option selected>Person</option>
                                         <option value="1">Person 1</option>
                                         <option value="2">Person 2</option>
@@ -362,7 +184,7 @@
                                         <option value="3">Person 4</option>
                                     </select>
                                 </div>
-
+    
                                 <div>
                                     <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Book
                                         Now</button>
@@ -374,65 +196,229 @@
             </div>
         </div>
     </div>
-    <!-- Reservation End -->
 
 
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
+    <!-- Service Start -->
+    <div class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h4>
-                <h1 class="display-4">Our Clients Say</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Services</h4>
             </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-truck service-icon"></i>Ship Nhanh Chóng</h4>
+                            <p class="m-0">Để được ứng cử vào vị trí shipper của quán nhân viên cần có kinh nghiệm đua xe, đặc biệt là xe Wave.</p>
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem.
-                        Dolor tempor ipsum sanct clita</p>
                 </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-2.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-coffee service-icon"></i>Cà Phê Nguyên Chất</h4>
+                            <p class="m-0">Để mua được những hạt cà phê tươi ngon nhất chúng tôi đã đến tận nơi những điểm bán và trải nghiệm trực tiếp và đánh giá.</p>
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem.
-                        Dolor tempor ipsum sanct clita</p>
                 </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-award service-icon"></i>Giàu Kinh Nghiệm</h4>
+                            <p class="m-0">Đội ngũ pha chế và phục vụ có kinh nghiệm ít nhất từ 3 năm trở lên và được đào tạo bài bản.</p>
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem.
-                        Dolor tempor ipsum sanct clita</p>
                 </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-4.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-4.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-table service-icon"></i>Đặt Bàn Online</h4>
+                            <p class="m-0">Bạn có thể đặt bàn online ngay tại trên trang web của quán để giữ chỗ trước khi đến.</p>
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem.
-                        Dolor tempor ipsum sanct clita</p>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Service End -->
+
+
+    <!-- Offer Start -->
+    <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
+        <div class="container py-5">
+            <h1 class="display-3 text-primary mt-3">50% OFF</h1>
+            <h1 class="text-white mb-3">Sunday Special Offer</h1>
+            <h4 class="text-white font-weight-normal mb-4 pb-3"><i class="far fa-calendar"></i>1/10/1023 - 30/10/2023</h4>
+            <form class="form-inline justify-content-center mb-4">
+                <div class="input-group">
+                    <input type="text" class="form-control p-4" placeholder="Your Email" style="height: 60px;">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary font-weight-bold px-4" type="submit">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Offer End -->
+
+
+    <!-- Menu Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
+                <h1 class="display-4">Competitive Pricing</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="https://globalassets.starbucks.com/digitalassets/products/bev/Oleato_GoldenFoam_ColdBrew.jpg?impolicy=1by1_wide_topcrop_630" alt="">
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Oleato Golden Foam™ Cold Brew</h4>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="https://globalassets.starbucks.com/digitalassets/products/bev/Oleato_CaffeLatte.jpg?impolicy=1by1_wide_topcrop_630" alt="">
+
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Oleato™ Caffé Latte with Oatmilk</h4>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="https://globalassets.starbucks.com/digitalassets/products/bev/Oleato_ToffeeNut_ShakenEspresso.jpg?impolicy=1by1_wide_topcrop_630" alt="">
+
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Oleato™ Iced Shaken Espresso with Oatmilk and Toffeenut</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="https://globalassets.starbucks.com/digitalassets/products/bev/SBX20211029_7356_IcedMatchaTeaLatte-GoldenFoam-onGray_sRGB-1800.jpg?impolicy=1by1_wide_topcrop_630" alt="">
+
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Iced Matcha Tea Latte with Oleato Golden Foam™</h4>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="https://globalassets.starbucks.com/digitalassets/products/bev/SBX20221014_4603_ParadiseDrink-GoldenFoam-onGray_sRGB-1800.jpg?impolicy=1by1_wide_topcrop_630" alt="">
+
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Paradise Drink Starbucks Refreshers® Beverage with Oleato Golden Foam™</h4>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="https://globalassets.starbucks.com/digitalassets/products/bev/SBX20221014_4538_DragonDrink-GoldenColdFoam-onGray_sRGB-1800.jpg?impolicy=1by1_wide_topcrop_630" alt="">
+
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Dragon Drink® Starbucks Refreshers® Beverage with Oleato Golden Foam™</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu End -->
+
+
+    <!-- Reservation Start -->
+    <!-- Reservation End -->
+
+
+    <!-- Testimonial Start -->
     <!-- Testimonial End -->
+
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Contact Us</h4>
+                <h1 class="display-4">Feel Free To Contact</h1>
+            </div>
+            <div class="row px-3 pb-2">
+                <div class="col-sm-4 text-center mb-3">
+                    <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
+                    <h4 class="font-weight-bold">Address</h4>
+                    <p>8 Quang Trung, Ha Dong, Hanoi</p>
+                </div>
+                <div class="col-sm-4 text-center mb-3">
+                    <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
+                    <h4 class="font-weight-bold">Phone</h4>
+                    <p>+084 399 332559</p>
+                </div>
+                <div class="col-sm-4 text-center mb-3">
+                    <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
+                    <h4 class="font-weight-bold">Email</h4>
+                    <p>kirigayakazuto301007@gmail.com</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 pb-5">
+                    <iframe style="width: 100%; height: 443px;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6 pb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control bg-transparent p-4" id="name" placeholder="Your Name"
+                                    required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control bg-transparent p-4" id="email"
+                                    placeholder="Your Email" required="required"
+                                    data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control bg-transparent p-4" id="subject"
+                                    placeholder="Subject" required="required"
+                                    data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control bg-transparent py-3 px-4" rows="5" id="message"
+                                    placeholder="Message" required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit"
+                                    id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Footer Start -->
@@ -446,7 +432,6 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i
                             class="fab fa-twitter"></i></a>
@@ -458,17 +443,16 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">GIỜ MỞ CỬA</h4>
                 <div>
-                    <h6 class="text-white text-uppercase">Monday - Friday</h6>
+                    <h6 class="text-white text-uppercase">Thứ 2 - Thứ 6</h6>
                     <p>8.00 AM - 8.00 PM</p>
-                    <h6 class="text-white text-uppercase">Saturday - Sunday</h6>
+                    <h6 class="text-white text-uppercase">Thứ 7 - CN</h6>
                     <p>2.00 PM - 8.00 PM</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
                 <div class="w-100">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 25px;"
@@ -482,7 +466,7 @@
         </div>
         <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5"
             style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">Domain</a>. All Rights
+            <p class="mb-2 text-white">&copy; <a class="font-weight-bold" href="#">Tien Dat</a>. All Rights
                 Reserved.</a></p>
             <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="https://htmlcodex.com">HTML
                     Codex</a></p>
@@ -510,7 +494,8 @@
     <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
+    <script type="module" src="js/displayName.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/logout.js" type="module"></script>
 </body>
-
 </html>

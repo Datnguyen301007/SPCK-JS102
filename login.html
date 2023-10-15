@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Login</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
         rel="stylesheet" />
@@ -16,10 +17,6 @@
 <body class="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
     <div class="max-w-screen-xl m-0 sm:m-20 bg-white shadow sm:rounded-lg flex justify-center flex-1">
         <div class="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
-            <div>
-                <img src="https://storage.googleapis.com/devitary-image-host.appspot.com/15846435184459982716-LogoMakr_7POjrN.png"
-                    class="w-32 mx-auto" />
-            </div>
             <div class="mt-12 flex flex-col items-center">
                 <h1 class="text-2xl xl:text-3xl font-extrabold">
                     Sign in for buy
@@ -88,6 +85,12 @@
                             </span>
                         </button>
                         <p class="mt-6 text-xs text-gray-600 text-center">
+                            Do not have an account?
+                            <a href="/register.html" class="border-b border-gray-500 border-dotted">
+                                Sign up
+                            </a>
+                        </p>
+                        <p class="mt-6 text-xs text-gray-600 text-center">
                             I agree to abide by templatana's
                             <a href="#" class="border-b border-gray-500 border-dotted">
                                 Terms of Service
@@ -102,8 +105,8 @@
             </div>
         </div>
         <div class="flex-1 bg-indigo-100 text-center hidden lg:flex">
-            <div class="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat"
-                style="background-image: url('https://storage.googleapis.com/devitary-image-host.appspot.com/15848031292911696601-undraw_designer_life_w96d.svg');">
+            <div class="m-11 xl:m-11 w-full bg-contain bg-center bg-no-repeat"
+                style="background-image: url('/img/coffee\ \(1\).jpg');">
             </div>
         </div>
     </div>
@@ -136,6 +139,7 @@
     </div>
     <script src="/js/main.js"></script>
     <script src="/js/login.js" type="module"></script>
+    <script type="module" src="/js/checklogin.js"></script>
 </body>
 
 </html>
